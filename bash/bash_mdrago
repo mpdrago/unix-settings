@@ -1,0 +1,8 @@
+#PATHS
+
+JAVA_HOME=/opt/java
+PATH=$JAVA_HOME/bin:$PATH:/home/mdrago/web/bin/
+
+#ALIASES
+alias aptsearch="apt-cache search"
+alias pretendinstall="apt-get install -s"
