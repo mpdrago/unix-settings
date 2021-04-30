@@ -1,0 +1,44 @@
+# Live config reload (changes require restart)
+live_config_reload: true
+
+# Bell
+bell:
+  animation: EaseOutExpo
+  # Duration of the visual bell flash in milliseconds. A `duration` of `0` will
+  duration: 75
+  # Visual bell animation color.
+  color: '#ffffff'
+  
+  
+# Background opacity
+# The value `0.0` is completely transparent and `1.0` is opaque.
+background_opacity: 1.0
+
+
+
+selection:
+  # When set to `true`, selected text will be copied to the primary clipboard.
+  save_to_clipboard: true
+
+mouse_bindings:
+  - { mouse: Middle, action: PasteSelection }
+  - { mouse: Right, action: PasteSelection }
+
+#cursor:
+  # Cursor style
+  #style:
+    #shape: Beam
+    #blinking: Off
+  #vi_mode_style: None
+  #blink_interval: 750
+  # If this is `true`, the cursor will be rendered as a hollow box when the
+  # window is not focused.
+  #unfocused_hollow: true
+  # Thickness of the cursor relative to the cell width as floating point number
+  # from `0.0` to `1.0`.
+  #thickness: 0.15
+  
+# Send ESC (\x1b) before characters when alt is pressed.
+alt_send_esc: true
+
+
