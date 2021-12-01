@@ -18,6 +18,7 @@ PATH=$JAVA_HOME/bin:$PATH
 #ALIASES
 alias aptsearch="apt-cache search"
 alias pretendinstall="apt install -s"
+alias weather="curl wttr.in"
 
 if [ -f .bash_local ]; then
   . .bash_local
