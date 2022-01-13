@@ -1,7 +1,11 @@
+import:
+  -  .config/alacritty.local.yml
+
 # Live config reload (changes require restart)
 live_config_reload: true
 env:
   TERM: xterm-256color
+
 # Bell
 bell:
   animation: EaseOutExpo
@@ -14,6 +18,7 @@ bell:
 # Background opacity
 # The value `0.0` is completely transparent and `1.0` is opaque.
 background_opacity: 1.0
+#background_opacity: 0.75
 
 
 
