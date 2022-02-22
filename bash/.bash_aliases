@@ -13,6 +13,7 @@ fi
 
 
 JAVA_HOME=/opt/java
+PATH=~/node/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
 
 #ALIASES
