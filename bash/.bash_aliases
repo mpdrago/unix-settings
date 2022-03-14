@@ -15,6 +15,7 @@ fi
 JAVA_HOME=/opt/java
 PATH=~/node/bin:$PATH
 PATH=$JAVA_HOME/bin:$PATH
+PATH=~/node/bin:$PATH
 
 #ALIASES
 alias aptsearch="apt-cache search"
