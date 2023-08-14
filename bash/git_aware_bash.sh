@@ -7,5 +7,5 @@ if [ -d .bash ]; then
 else
   mkdir ~/.bash
   echo "Cloning.."
-  git clone git://github.com/jimeh/git-aware-prompt.git ~/.bash/git-aware-prompt
+  git clone https://github.com/jimeh/git-aware-prompt.git ~/.bash/git-aware-prompt
 fi
